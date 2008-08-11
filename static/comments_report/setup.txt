@@ -1,0 +1,9 @@
+plugin.tx_commentsreport_pi1 {
+	templateFile = {$plugin.tx_commentsreport_pi1.templateFile}
+	emailTemplateFile = {$plugin.tx_commentsreport_pi1.emailTemplateFile}
+	reportPid = {$plugin.tx_commentsreport_pi1.reportPid}
+	requiredFields = {$plugin.tx_commentsreport_pi1.requiredFields}
+	useCaptcha = {$plugin.tx_commentsreport_pi1.useCaptcha}
+	sourceEmail = {$plugin.tx_commentsreport_pi1.sourceEmail}
+	destinationEmail = {$plugin.tx_commentsreport_pi1.destinationEmail}
+}

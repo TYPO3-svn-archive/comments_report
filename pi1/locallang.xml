@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_commentsreport_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="no_ts_template">comments_report: please, add extension TypoScript template to your main template!</label>
+			<label index="text_from">From:</label>
+			<label index="text_frommail">E-mail:</label>
+			<label index="text_text">Your message:</label>
+			<label index="text_submit">Submit</label>
+			<label index="text_captcha">Are you human? Write code from the image below!</label>
+			<label index="text_thankyou">Thank you! Your message has been sent.</label>
+			<label index="error_wrong_captcha">Wrong code</label>
+			<label index="text_required">[Required]</label>
+			<label index="error_empty_field">This field must not be empty</label>
+			<label index="error_cannot_get_info">Internal error: unable to decode internal information</label>
+			<label index="error_cannot_get_comment">Unable to retrieve comment</label>
+			<label index="report_subject">Notification about bad comment</label>
+			<label index="error_bad_email">Bad e-mail address</label>
+		</languageKey>
+	</data>
+</T3locallang>

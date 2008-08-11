@@ -1,0 +1,19 @@
+Hello!
+
+The following comment was reported as inappropriate:
+
+Page: ###URL####tx-comments-comment-###UID###
+From: ###FROM###
+E-mail: ###FROMMAIL###
+User notification:
+-----------------------
+###USER_TEXT###
+-----------------------
+Comment text:
+-----------------------
+###COMMENT_TEXT###
+-----------------------
+
+
+Best regards,
+Comment reporting system

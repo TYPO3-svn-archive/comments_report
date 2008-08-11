@@ -1,0 +1,16 @@
+plugin.tx_commentsreport_pi1 {
+	# cat = plugin.comments_report; type=string; label=Template file
+	templateFile = EXT:comments_report/res/template.html
+	# cat = plugin.comments_report; type=string; label=E-mail template file
+	emailTemplateFile = EXT:comments_report/res/template_email.txt
+	# cat = plugin.comments_report; type=int+; label=Report page id:ID of the page where reporting form is located
+	reportPid =
+	# cat = plugin.comments_report; type=string; label=Required fields:Comma-separated list of required fields
+	requiredFields = from,frommail,text
+	# cat = plugin.comments_report; type=options[None=0,captcha extension=1,sr_freecap extension=2]; label=Use captcha:Enable captcha usage. Requires appropriate extension to be installed
+	useCaptcha = 0
+	# cat = plugin.comments_report; type=string; label=Source e-mail:E-mail to send notifications from
+	sourceEmail =
+	# cat = plugin.comments_report; type=string; label=Destination e-mail:E-mail to send notifications to
+	destinationEmail =
+}

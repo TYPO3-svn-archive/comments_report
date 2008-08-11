@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Comments: report bad comment</title>
+<!-- ###HEADER_ADDITIONS### begin -->
+<link rel="stylesheet" type="text/css" href="###SITE_REL_PATH###res/styles.css" />
+<!-- ###HEADER_ADDITIONS### end -->
+</head>
+<body>
+
+<h1>Reporting form</h1>
+<div class="tx-commentsreport-pi1">
+<!-- ###REPORT_FORM### begin -->
+<form action="###ACTION###" method="post">
+	<input type="hidden" name="tx_commentsreport_pi1[info]" value="###INFO###" />
+	<label for="tx_commentsreport_pi1[from]">###TEXT_FROM### ###REQUIRED_FROM###</label>
+	<input type="text" name="tx_commentsreport_pi1[from]" value="###FROM###" /> ###ERROR_FROM###
+	<label for="tx_commentsreport_pi1[frommail]">###TEXT_FROMMAIL### ###REQUIRED_FROMMAIL###</label>
+	<input type="text" name="tx_commentsreport_pi1[frommail]" value="###FROMMAIL###" /> ###ERROR_FROMMAIL###
+	###CAPTCHA###
+	<label for="tx_commentsreport_pi1[text]">###TEXT_TEXT### ###REQUIRED_TEXT###</label>
+	<textarea name="tx_commentsreport_pi1[text]">###TEXT###</textarea> ###ERROR_TEXT###
+	<input type="submit" name="tx_commentsreport_pi1[submit]" value="###TEXT_SUBMIT###" />
+</form>
+<!-- ###REPORT_FORM### end -->
+</div>
+
+<h1>Required</h1>
+<!-- ###REQUIRED### begin -->
+<span class="tx_commentsreport_pi1_required">###TEXT_REQUIRED###</span>
+<!-- ###REQUIRED### end -->
+
+<h1>Error</h1>
+<!-- ###ERROR### begin -->
+<span class="tx_commentsreport_pi1_error">* ###TEXT###</span>
+<!-- ###ERROR### end -->
+
+<h1>Captcha</h1>
+<!-- ###REPORT_CAPTCHA### begin -->
+<label for="tx_commentsreport_pi1[captcha]">###TEXT_CAPTCHA### ###REQUIRED_CAPTCHA###</label>
+<input type="text" name="tx_commentsreport_pi1[captcha]" value="" />  ###ERROR_CAPTCHA###
+<br />
+###SR_FREECAP_IMAGE###
+<br />
+###SR_FREECAP_CANT_READ###
+<!-- ###REPORT_CAPTCHA### end -->
+
+<h1>"Thank you" message</h1>
+<!-- ###THANK_YOU### begin -->
+###TEXT_THANKYOU###
+<!-- ###THANK_YOU### end -->
+
+<h1>Reporting link</h1>
+<!-- ###REPORT_LINK### begin -->
+<a href="###LINK###">###TITLE###</a>
+<!-- ###REPORT_LINK### end -->
+
+</body>
+</html>

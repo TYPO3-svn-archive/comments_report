@@ -1,0 +1,6 @@
+.tx-commentsreport-pi1 FORM LABEL { display: block; }
+.tx-commentsreport-pi1 FORM INPUT[type=text], .tx-commentsreport-pi1 FORM TEXTAREA { width: 250px; }
+.tx-commentsreport-pi1 FORM TEXTAREA { height: 120px; }
+.tx-commentsreport-pi1 FORM INPUT[type=submit] { display: block; }
+.tx_commentsreport_pi1_required { color: red; font-size: 80%; }
+.tx_commentsreport_pi1_error { color: red; font-size: 80%; }
